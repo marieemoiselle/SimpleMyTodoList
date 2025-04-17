@@ -4,7 +4,6 @@
     #d2c58b
     #b57a3f
 
-
 */
 
 * {
@@ -45,7 +44,10 @@ input, button {
 }
 
 .task-item {
-    max-width: 260px;
+    max-width: 280px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
     height: 25px;
     margin: 5px 0;
     background-color: antiquewhite;
